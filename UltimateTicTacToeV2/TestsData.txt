@@ -1,0 +1,66 @@
+variables :
+rate of updateing the network - C
+size of the network:
+    input layer size
+    number of layers (each layer ahas a size)
+    output layer size (this is just 1. the best move)
+    gamma (part of the nuieral network)(0 < number < 1)
+number of runs (epochs)
+learning rate (number)
+
+
+Tests - 
+
+    22 (copy) :  DDQN
+    C :50
+        size :
+            85
+            1
+            1
+            0.99
+        (100 + 100) * 10^3 
+        0.0001
+
+    23 : DQN
+    C :50
+        size :
+            85
+            1
+            1
+            0.99
+        (130 + 70) * 10^3 
+        0.0001
+
+
+    200 : DDQN (as X)
+    C :50
+        size :
+            85
+            1
+            1
+            0.99
+        70 * 10^3 
+        0.0001
+
+    99 : CNN
+    C :50
+        size :
+            85
+            1
+            1
+            0.99
+        90 * 10^3 
+        0.0001
+
+
+ 
+
+
+
+
+
+
+
+
+
+
